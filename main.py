@@ -80,7 +80,7 @@ def main():
     main_student_data = load_data()
     while True:
         print_menu()
-        answer = input("Please enter choice 1-4:")
+        answer = input("Please enter choice 1-5:")
         perform_command(answer, main_student_data)
 
 
