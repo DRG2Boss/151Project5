@@ -43,9 +43,9 @@ def perform_command(user_choice, student_data):
 
 def add_student(new_student_data):
     student_name = input("Please enter the new student's name:")
-    student_id = int(input(f"Please enter the new student's ID:"))
-    student_credits = int(input(f"Please enter the number of Credits the new student has completed:"))
-    student_gpa = float(input(f"Please enter the new student's GPA:"))
+    student_id = int(input("Please enter the new student's ID:"))
+    student_credits = int(input("Please enter the number of Credits the new student has completed:"))
+    student_gpa = float(input("Please enter the new student's GPA:"))
     student = {
         'name': student_name,
         'ID': student_id,
